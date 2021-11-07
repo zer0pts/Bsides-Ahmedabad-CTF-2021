@@ -10,8 +10,10 @@ cache:
 pages:
   script:
     - yarn build && yarn export
+    - mv out/* public/
+    - rm -rf out
   artifacts:
     paths:
-      - out
+      - public
   only:
     - scoreboard
