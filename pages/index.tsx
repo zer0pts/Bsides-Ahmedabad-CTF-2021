@@ -203,7 +203,7 @@ const Home: NextPage = () => {
 
           <Box w="250px" p="10">
             <Link href="https://rehack.xyz/">
-              <img src="rehack.png" />
+              <img src="rehack.jpg" />
             </Link>
           </Box>
         </Flex>
