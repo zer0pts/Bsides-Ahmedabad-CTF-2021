@@ -1,7 +1,6 @@
 image: node
 
 before_script:
-  - npm install -g yarn
   - yarn
 
 cache:
