@@ -1,0 +1,10 @@
+version: '3'
+services:
+  collapsed_license:
+    build:
+      context: .
+    working_dir: /home/ctf
+    container_name: collapsed_license
+    restart: always
+    ports:
+      - "10765:10765"

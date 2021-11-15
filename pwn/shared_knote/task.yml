@@ -1,0 +1,12 @@
+---
+name: shared knote
+description: >
+  <p>Things are preserved as long as someone uses it. So as notes.</p>
+  <code>nc {host} {port}</code>
+flag: "Neko{4t0m1c_1s_n0t_mut3x!!!_Us3_l0ck!!!}"
+author: ptr-yudai
+category: pwn
+tags: []
+is_survey: false
+host: pwn3.bsidesahmedabad.in
+port: 9011

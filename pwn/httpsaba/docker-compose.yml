@@ -1,0 +1,14 @@
+version: '3'
+services:
+  httpsaba:
+    build:
+      context: .
+    working_dir: /home/pwn
+    container_name: httpsaba
+    ulimits:
+      nproc: 65535
+      core: 0
+    ports:
+      - "9080:9080"
+    entrypoint: /home/pwn/server
+    restart: always

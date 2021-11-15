@@ -1,0 +1,10 @@
+---
+name: bettercatalog
+description: >
+  <p>The catalog by bluepichu is so vulnerable, I made a secure version check <a href="https://bettercatalog.xyz/">this</a> out, Please run your tests locally using docker provided </p><br><p>Note: The flag format for this challenge is NEKO{this_is_not_flag}</p>
+flag: "NEKO{ITS_4_5M4LL_1}"
+author: s1r1us
+category: web
+tags: []
+is_survey: false
+

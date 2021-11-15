@@ -1,0 +1,9 @@
+---
+name: intersection
+description: >
+  <p>Simple flag checker for warmup! No strip and no obfuscation! Only main function!</p>
+flag: "Neko{intersection_of_x^2+y^2=a^2_and_y=b/x}"
+author: ptr-yudai
+category: reversing
+tags: []
+is_survey: false

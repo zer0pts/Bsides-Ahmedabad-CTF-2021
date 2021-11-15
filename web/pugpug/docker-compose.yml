@@ -1,0 +1,34 @@
+version: '3'
+services:
+  challenge:
+    build: ./challenge/
+    image: pugpug_chall
+  spawner:
+    image: ghcr.io/tyage/container-spawner:latest
+    environment:
+      - SPAWNER_IMAGE_NAME=pugpug_chall
+      - SPAWNER_TIME_LIMIT=600
+      - SPAWNER_CONTAINER_PORT=3000
+      - RECAPTCHA_PUBLIC_KEY=6Le7ltYcAAAAAJ5xVBa_zHvg3hz8WywNubnTGfK2
+      - RECAPTCHA_PRIVATE_KEY=hm-4ZxS
+      - SPAWNER_USERNAME_ENV=USERNAME
+      - SPAWNER_PASSWORD_ENV=PASSWORD
+      - SECRET_KEY=Y4EKBu5ru6puMRxR
+      - SPAWNER_HOSTNAME=pugpug.web.ctf.bsidesahmedabad.in
+      - SPAWNER_CONTAINER_ARGS={"environment":{"FLAG":"Neko{Y0u_P0llut3d_m3_but_d0nt_p0llut3_3nv1r0nm3nt}"}}
+    ports:
+      - "5000:5000"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    depends_on:
+      - challenge
+
+  cleaner:
+    image: ghcr.io/tyage/container-spawner-cleaner:latest
+    environment:
+      - SPAWNER_IMAGE_NAME=pugpug_chall
+      - SPAWNER_TIME_LIMIT=600
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock   
+    depends_on:
+      - challenge

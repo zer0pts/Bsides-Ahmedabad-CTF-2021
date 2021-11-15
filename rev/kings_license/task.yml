@@ -1,0 +1,12 @@
+---
+name: King's License
+description: >
+  <p>In 20XX, 99% of humanity purchased the license of this software, which means there should be more than 9 billion license keys. It's easy for you to crack one of them, right?</p>
+  <code>nc {host} {port}</code>
+flag: "Neko{there_are_227514171973736_patterns_of_valid_license_keys}"
+author: ptr-yudai
+category: reversing
+tags: []
+is_survey: false
+host: rev.bsidesahmedabad.in
+port: 10777

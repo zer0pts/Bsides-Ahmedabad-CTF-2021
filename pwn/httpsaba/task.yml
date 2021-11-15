@@ -1,0 +1,11 @@
+---
+name: httpsaba
+description: >
+  <p>This tiny HTTP server is enough for hosting a <a href="http://{host}:{port}/">static website</a>.</p>
+flag: "Neko{Ju5t_t3st3d_ur_b4s1c_sk1ll_2_ROP}"
+author: ptr-yudai
+category: pwn
+tags: []
+is_survey: false
+host: pwn.bsidesahmedabad.in
+port: 9080

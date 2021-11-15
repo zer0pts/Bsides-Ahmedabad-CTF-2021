@@ -1,0 +1,13 @@
+---
+name: BabyBOF:RCE
+description: >
+  <p>Give me your feedback on this challenge.</p>
+  <code>nc {host} {port}</code>
+flag: "Neko{Th4t's_4_n1c3_f33db4ck}"
+author: ptr-yudai
+category: pwn
+tags:
+  - warmup
+is_survey: false
+host: pwn2.bsidesahmedabad.in
+port: 9001

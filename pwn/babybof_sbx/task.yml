@@ -1,0 +1,12 @@
+---
+name: BabyBOF:SBX
+description: >
+  <p>As we have received many malicious feedbacks, we decided to isolate the feedback form. Is it over-killing?</p>
+  <code>nc {host} {port}</code>
+flag: "Neko{Why_1s_p4r3nt_pl4y1ng_1n_s4ndb0x?}"
+author: ptr-yudai
+category: pwn
+tags: []
+is_survey: false
+host: pwn2.bsidesahmedabad.in
+port: 9002

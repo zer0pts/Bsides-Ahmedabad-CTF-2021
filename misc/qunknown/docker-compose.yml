@@ -1,0 +1,12 @@
+version: '3'
+services:
+  qunknown:
+    build:
+      context: .
+    working_dir: /home/ctf
+    container_name: qunknown
+    restart: always
+    ports:
+      - "10907:10907"
+    environment:
+      - FLAG=Neko{n0_1t's_4_b4s1c_g4t3_t3l3p0rt4t10n!}

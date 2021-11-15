@@ -1,0 +1,10 @@
+---
+name: dlppp
+description: >
+  <p>Can you solve DLP?</p>
+flag: "Neko{b1n0m1al_th3or3m0o00oo000ooo00000ooooo00000000n}"
+author: ptr-yudai
+category: crypto
+tags:
+  - warmup
+is_survey: false

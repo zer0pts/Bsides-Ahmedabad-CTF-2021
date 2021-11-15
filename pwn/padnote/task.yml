@@ -1,0 +1,12 @@
+---
+name: padnote
+description: >
+  <p>I proudly released the world most secure note after aggressively tested the source code with AFL and CodeQL, and didn't find any bugs.</p>
+  <code>nc {host} {port}</code>
+flag: "Neko{vuln3r4b1l1ty_1ntr0duc3d_by_c0mp1l3r_0pt1m1z4t10n}"
+author: ptr-yudai
+category: pwn
+tags: []
+is_survey: false
+host: pwn.bsidesahmedabad.in
+port: 9003

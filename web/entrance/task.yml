@@ -1,0 +1,12 @@
+---
+name: entrance
+description: >
+  <p>Welcome to the <a href="http://{host}:{port}/" target="_blank">Entrance</a>!</p>
+flag: "Neko{tEk1t0uM0ndAiT3kI7oUfLAg}"
+author: ptr-yudai
+category: web
+tags:
+  - warmup
+is_survey: false
+host: web.bsidesahmedabad.in
+port: 8001

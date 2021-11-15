@@ -1,0 +1,12 @@
+---
+name: Collapsed License
+description: >
+  <p>In 21XX, 0.00000001% of humanity purchased the license of this software, which means there should be at least one valid license key. Is it easy for you to crack one of them?</p>
+  <code>nc {host} {port}</code>
+flag: "Neko{c4n_U_f1nd_0ut_h0w_m4ny_v4L1d_l1c3ns3_3x1St5?}"
+author: ptr-yudai
+category: reversing
+tags: []
+is_survey: false
+host: rev.bsidesahmedabad.in
+port: 10765

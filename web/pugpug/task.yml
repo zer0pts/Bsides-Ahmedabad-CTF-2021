@@ -1,0 +1,11 @@
+---
+name: pugpug
+description: >
+  <p><a href="http://{host}:{port}/">Here</a> is the beta access to a interactive learning tool of my course </p>
+flag: "Neko{Y0u_P0llut3d_m3_but_d0nt_p0llut3_3nv1r0nm3nt}"
+author: s1r1us
+category: web
+tags: []
+is_survey: false
+host: pugpug.web.ctf.bsidesahmedabad.in
+port: 5000

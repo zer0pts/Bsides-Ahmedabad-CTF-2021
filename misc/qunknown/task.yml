@@ -1,0 +1,13 @@
+---
+name: qunknown
+description: >
+  <p>I learned No-Cloning Theorem today. Can't we copy even a single qubit really?</p>
+  <code>nc {host} {port}</code>
+flag: "Neko{n0_1t's_4_b4s1c_g4t3_t3l3p0rt4t10n!}"
+author: ptr-yudai
+category: misc
+tags:
+  - quantum
+is_survey: false
+host: misc.bsidesahmedabad.in
+port: 10907

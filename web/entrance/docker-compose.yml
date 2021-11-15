@@ -1,0 +1,9 @@
+version: '3'
+services:
+  entrance:
+    build: .
+    working_dir: /var/www/html
+    container_name: entrance
+    ports:
+      - "8001:80"
+    restart: always

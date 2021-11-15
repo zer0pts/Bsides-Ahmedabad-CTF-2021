@@ -1,0 +1,12 @@
+---
+name: Roda
+description: >
+  <p>I made an <a href="http://{host}:{port}/">image uploader</a>. It is easy to use; just drag and drop, and share the URL with your friends!</p>
+  <p>If you find a suspicious image, please report it to the admin. The admin will check it.</p>
+flag: "Neko{S4EoMHlo608?t=2m30s}"
+author: st98
+category: web
+tags: []
+is_survey: false
+host: web.bsidesahmedabad.in
+port: 8080

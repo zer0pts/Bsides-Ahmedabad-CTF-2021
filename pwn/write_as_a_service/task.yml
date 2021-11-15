@@ -1,0 +1,12 @@
+---
+name: Write as a Service
+description: >
+  <p>Read as a Service is still under development...</p>
+  <code>nc {host} {port}</code>
+flag: "Neko{sp33ch_i5_s1lv3r_s1l3nce_1s_g01den}"
+author: keymoon
+category: pwn
+tags: []
+is_survey: false
+host: pwn.bsidesahmedabad.in
+port: 9090

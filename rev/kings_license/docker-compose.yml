@@ -1,0 +1,10 @@
+version: '3'
+services:
+  kings_license:
+    build:
+      context: .
+    working_dir: /home/ctf
+    container_name: kings_license
+    restart: always
+    ports:
+      - "10777:10777"
