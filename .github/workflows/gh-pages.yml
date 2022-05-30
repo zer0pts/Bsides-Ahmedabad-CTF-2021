@@ -3,7 +3,7 @@ name: GitHub Pages
 on:
   push:
     branches:
-      - pages
+      - scoreboard
   workflow_dispatch:
 
 jobs:
